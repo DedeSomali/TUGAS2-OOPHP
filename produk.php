@@ -11,8 +11,8 @@ class Produk {
 	}
 } 
 
- // $produkl = new Produk(); 
- // $produkl->judul = "Naruto"; 
+ // $produk1 = new Produk(); 
+ // $produk1->judul = "Naruto"; 
  // var_dump($produkl); 
 
  // $produk2 = new Produk(); 
