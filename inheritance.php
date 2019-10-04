@@ -30,7 +30,7 @@ class Produk {
 }
 
 	class Komik extends Produk { 
-		public function getinfoKomik() { 
+		public function getInfoProduk() { 
 			$str = "Komik : {$this->judul} | {$this->getLabel()} (Rp. {$this->harga}) - {$this-> jmlHalaman} Halaman."; 
 			return $str; 
 		}
@@ -50,12 +50,12 @@ class Produk {
  		}
  	}
 
-	$produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100, 0, "Komik"); 
+	$produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100, 0); 
 
- 	$produk2 = new Produk("Uncharted", "Neil Druckman", "Sony Computer", 250000, 0, 50, "Game"); 
+ 	$produk2 = new Game("Uncharted", "Neil Druckman", "Sony Computer", 250000, 0, 50); 
 
 
-	echo $produk1->getinfoKomik();
+	echo $produk1->getInfoProduk();
 	echo "<br>";
 	echo $produk2->getinfoProduk();
 
