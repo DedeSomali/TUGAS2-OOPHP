@@ -1,8 +1,10 @@
 <?php 
 require_once 'App/init.php';
- $produk1 = new komik("naruto", "massashi kishimoto", "shonen jump" ,30000 , 100);
-  $produk2 = new game("uncharted", "neil drackman", "sony computer", 25000 , 50);
- 
+	$produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100, 0); 
+
+ 	$produk2 = new Game("Uncharted", "Neil Druckman", "Sony Computer", 250000, 0, 50); 
+
+
   $cetakProduk = new CetakInfoProduk();
   $cetakProduk->tambahProduk($produk1);
   $cetakProduk->tambahProduk($produk2);
