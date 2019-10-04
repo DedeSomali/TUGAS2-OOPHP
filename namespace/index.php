@@ -1,7 +1,6 @@
-
 <?php 
  require_once 'App/init.php';
-//  $produk1 = new komik("naruto", "massashi kishimoto", "shonen jump" ,30000 , 100);
+//   $produk1 = new komik("naruto", "massashi kishimoto", "shonen jump" ,30000 , 100);
 //   $produk2 = new game("uncharted", "neil drackman", "sony computer", 25000 , 50);
  
 //   $cetakProduk = new CetakInfoProduk();
